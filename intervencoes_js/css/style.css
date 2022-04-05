@@ -1,0 +1,8 @@
+body {
+    margin: 0;
+}
+
+#background {
+    width: 110vw;
+    height: 110vh;
+    background-color: aquamarine;
