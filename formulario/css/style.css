@@ -1,0 +1,21 @@
+fieldset
+{
+  width:600px;
+  height:250px;
+  background-color: antiquewhite;
+  border-style: dashed;
+  border-color: black;
+}
+
+legend
+{
+  font-style:bold;
+  font-family: "Segoe UI";
+  font-size: larger;
+}
+
+label
+{
+  font-style:bold;
+  font-family: "Segoe UI";
+}

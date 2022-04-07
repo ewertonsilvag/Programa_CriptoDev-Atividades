@@ -10,5 +10,5 @@ email = prompt("Digite seu email", "Digite seu email aqui");
 
 //Criando as funções
 function informacoes() {
-    alert("Seja bem vinde " + nome + ", você tem" + idade + " anos e seu email é " + email)
+    alert("Seja bem vinde " + nome + ", você tem " + idade + " anos e seu email é " + email)
 }

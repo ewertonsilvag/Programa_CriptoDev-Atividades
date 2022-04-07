@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="/formulario/css/style.css">
+    <script src="/formulario/js/script.js"></script>
+
+</head>
+
+<body>
+
+    <!-- Criando um formulário-->
+    <form id="cadastro" method="get">
+
+        <!-- Criando uma estrutura de caixa para envolver os dados-->
+        <fieldset>
+            <!-- Criando Legenda para o formulário-->
+            <legend>Preencha os dados do formulário</legend><br>
+            <!-- Definindo as lebels e campos-->
+            <label>Digite seu nome:</label>
+            <input type="text" name="nome_cliente" placeholder="Digite seu nome aqui"><br><br>
+            <label>Digite seu email</label>
+            <input type="email" name="email_cliente" placeholder="Digite seu email aqui"><br><br>
+            <label> Digite sua senha (Mínimo 6 caracteres) </label>
+            <input type="password" name="senha_cliente" minlength="6" placeholder="Digita sua senha aqui"><br><br>
+            <label> Digite novamente sua senha (Mínimo 6 caracteres) </label>
+            <input type="password" name="validacao_senha" minlength="6" placeholder="Digita sua senha aqui"><br><br>
+
+
+            <!-- Criando um botão para o envio do nome do cliente-->
+            <input type="submit" onclick=" return valida_campos()" value="Enviar">
+
+
+        </fieldset>
+
+
+    </form>
+</body>
+
+</html>
